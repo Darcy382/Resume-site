@@ -165,7 +165,8 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  /*color: #824027;*/
+  color: rgb(255, 161, 0);
   text-decoration: underline;
 }
 
@@ -10037,6 +10038,14 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+}
+
+.skills-list li {
+  font-size: 1.01rem;
+}
+
+.interests-list li {
+  font-size: 1.05rem;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
